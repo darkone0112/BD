@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html{
+            background-color: #1d2630;
+        }
+        h1{
+            margin-left: 30vw;
+            font-size: 1.5em;
+        }
+        span{
+            font-size: 2em;
+            border-style: solid;
+            border-image: linear-gradient(to right, #fb5b53,  #1d2630, rgb(195, 255, 246)) 1;
+            font-style: italic;
+            background: linear-gradient(to right, red, red, #fb5b53,#1d2630, rgb(138, 252, 235), rgb(195, 255, 246));
+            background-size: 300%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 900;
+            letter-spacing: -5px;
+            text-transform: uppercase;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: animated_text 5s ease-in-out infinite;
+            -moz-animation: animated_text 5s ease-in-out infinite;
+            -webkit-animation: animated_text 5s ease-in-out infinite;
+}
+.seccion1{
+    margin-left: 80px;
+    border-left: #fb5b53 solid;
+}
+iframe{
+    border: #fb5b53 solid;
+    margin-left: 100px;
+}
+h2{
+    color: rgb(138, 252, 235);
+    font-size: 2em;
+    padding-left: 20px;
+
+}
+#intel1{
+    width: 380px;
+    height: 200px;
+    padding-left: 10px;
+}
+#intel2{
+    width: 380px;
+    height: 200px;
+    padding-left: 0px;
+}
+#intel3{
+    width: 380px;
+    height: 200px;
+    padding-left: 0px;
+    margin-right: 10px;
+}
+p{
+    color: rgb(138, 252, 235);
+    font-size: 1.2em;
+    
+    padding-left: 20px;
+    margin-right: 20px;
+    padding-right: 20px;
+}
+@keyframes animated_text {
+	0% { background-position: 0px 50%; }
+	50% { background-position: 100% 50%; }
+	100% { background-position: 0px 50%; }
+}
+/* @media screen and (max-width: 1490px) {
+    #intel1{
+    width: 380px;
+    height: 200px;
+    padding-left: 20vw;
+}
+#intel2{
+    width: 380px;
+    height: 200px;
+    padding-left: 0px;
+}
+#intel3{
+    width: 380px;
+    height: 200px;
+    padding-left: 0px;
+    margin-right: 10px;
+    margin-left: 20vw;
+}
+} */
+    </style>
+</head>
+<body>
+    <h1><span>Entidad/Relacion</span></h1>
+    <div class="seccion1">
+        <iframe frameborder="0" style="width:800px;height:500px;" src="https://viewer.diagrams.net/?tags=%7B%7D&highlight=0000ff&edit=_blank&layers=1&nav=1&title=Proyecto_final.drawio#R7V3dc%2BI2EP9rMtM%2BJIM%2FgccELrl0mkvapL1LX24c0IFzxuKEuIT%2B9ZWxBUZrgwLGK0oeMrFkYazd3672S%2BLE6Yxer1gwHt7QPolO7Eb%2F9cTpnti21bJd8S%2FpmaU9nttIOwYs7GeDlh334b8k65TDpmGfTFYGckojHo5XO3s0jkmPr%2FQFjNGX1WHfaLT6reNgQEDHfS%2BIYO%2FnsM%2BHaW%2FLbi77P5JwMJTfbPnt9M4okIOzmUyGQZ%2B%2B5LqcDydOh1HK06vRa4dECfEkXdLPXZbcXbwYIzHX%2BcBt9%2FE8av52e9P4ctqaXD%2B3G88Pp%2FIxP4Noms04e1s%2BkyQgfUGRrEkZH9IBjYPow7L3gtFp3CfJ9zREaznmd0rHotMSnc%2BE81nG3mDKqega8lGU3YVzyd5rQqesR9ZMQGIiYAPC100040Iymdw3ZKS6InREOJuJAYxEAQ9%2FrrI%2FyFA0WIxbElpcZLR%2BA90h2Tt0NKaTkFMGGLBK3pdhyMn9OJiT5UVInSYpfxLGyevauWd33VZGrJnSfslJQNY1zIFfinbl1HJ8DFAKArLZl%2Bzz88Zj0jjzZLP7mr%2FZnWWtbzTm2UOtxk7gdjTB7RmFbadApfiReP%2BLqbgYJBcd2j%2Bj7MeUTHggb4rvWtyH7I4iofFJLfBX0G%2FZeui394Z%2BC5IDC%2F3WBuxvj3VXE%2BvNqrE%2B%2F%2Bg5Y8EsN2BMw5hPck%2B%2BSzpyKtJdBYlExKXueHfD%2BNba8eIifeMlqhZT3wFoKGv%2FAmjWiprdADTyGvIvS3UsWgt4iuvlh5JGfeBsGwFOx14Fj6NahpvG%2B%2BvHqxpSGb8fcLpgVbkLGA974TiABtOQjp6mk1pWCzl5VRPklwu3TmNJuiYHa9J7msLmG2X12O0jIXvLKLJ7gOq3C7sS2Y2yG4oh6SO7UXbrwCHqa0K0chtxJ7K326hmVePMcRcu69xIOrM8f5N5lbTuCAsFCQg7qdqx1WVku3Jls521LyVHkeS9Gjw%2BENbrWPBizEiRbkO0eIr0Wr0WD1wEDkuvNTXFQQbTDVFs0NDs0LgXCiBR9MVXdaDRF1%2BnceAgbenqbKMwWmTypPHGZDVbIb%2F%2FY0rljdPJnIDnYoDVGL8ub8oI5SVloyDOxS7Tx5WEL%2BtUz7ZtmENqFQWEDwn5bU3kW7ZR0Jdk%2Fv%2FT3SyVAwMBwnBjZMACYb9N0FdG1S11G8growVXxm7ISM%2BEVKilKFMP24ywYOb4nkahEfGOlmm0cjH0ncxMyOtc0rg0M5Fz1ldc9U1ZkO11q1yrNitXwwon4KJ2fX8O%2BMxZGMSDOUM3AJ9RLl6bxqLZXkvS7S2wovqJei0w710QdhcEq2pBKMmueYoadRRYpFPKPrVEBniQ1VQe1FQelE4ZPKiqAJalE26O%2B%2BdJlZ5oxTQmqmjmEVjK4o0MyYmdVyB2sm9HvllKWMxTC0J0%2BaamY8GDSvj21qim7Rav13uNatqH7gxaul6JaRWH0C1ZJNBjwALMeHKRQ1JvPBk6JLdPDBrYk2EwTi7HjPbIRINYT0Hv%2B2CO3dspj8JE3%2B2tZhPbq7Nh%2FuKwBN3WLfoxTNBtWCljSOLIUyIP6JFJp4kBSQPqig%2B0sBjaDp8EehmBXEQsF3b1FO%2F%2ByoVbGKCuEJyVJzlLzF%2B1PKdVr3vkQD09D3v2wpOOc3LhQKMME9Wasbz9oRqliKZCVFeuSg1FNazFuCS9YXB2HcPUByagNfc07Q3QLoo5jG97yOXxwOpMXegTznH99ToOTcJ1kU1dL66dI8W17k5Uw3AN84kpri9DowwQRzOesTdcyyjx0eFaNwxiWKLQheZ14TbU%2FqLUwLBtqKcl4Xk8CTBoH2qtEqC7M8Y0CYCm%2BEPIp1FghocJ8I1tuXgoFrk2TvftOVpWCT82eI5wt4TynLZeHvSt6Uu12qi9ftOqOnx1w%2FbOyc4%2FWO%2FzD6t1%2B9S9fiZ%2Ff%2BTB1c9%2FTg9KYe6gILW385ilH2GGyoBwsiI9unm8%2FWnFgz57ZZsapB0EQXcjT%2FWWQrHSUzLrvmYp0VtVsfo11npVrBbKbNDc7d2GV6zo1zLezFi%2Bamn52DrFhZVhadDhU8coQtWpfAsNCBSLtHIDAunYFGjhqnW5muqwsh29MIZ8HU84m44ExeCWyTqRr5rHTWwV4duAVhiyUOGWd11hqL7OeDdGwABxYRxtInehGBZGU5HtY4cZfFyD2nqbUq9QANBOeNuNXZpx5N5y67thEuArVg16LYePUnZXIZJrquXw1IM2aq7l8GEA2YAACYAztkJv4uyuKtkptemEzgrFQPdECMMMmvIjIRSFvjyQ2TSNrhR5oacGm2Zr9L0r6i13bBVExrbLnVSl8ZsHXjvcNJzhlfGprGqne2mUYkKPNDZhGMGISKNfko7EI5SReysAmbAXuhZKFArfeW8e6K5X%2Bd75GpgkJXPe5dMIN%2BSq%2BjEu9u8MtHDLFdCwLYl8aNiW773xhzbme5dNc2FMq3NowQXwF9EUs%2BiIv8avgFpionyVLBPO6HfSoRFNTszNzrP4FkaR0hVE4SA5b6ZH4vnhuhcJ2cJeEJ1nN0Zhv196ds2qxGmLwRsi5sq5IZYHWeMXsEbNplXHGhiClayJj4s1i4ylMayBIULJmk%2FHxRpHObbHcrBZA8vb3qUmHd3GZg0sFzpS1liKg2cXmAH1sgZGh99Zk5K8ic0a6MslrLk5vrUGSA02a6RCfZca2zFMatowVHykUqOeq4cvNXap1BwZazzLMDOgXR4NODKFprIGX6EVRwOOUKF5SgzNlt44GmvKowFHJjVqDM3Bdjnb79GAkmgAPmuKowFHqNDUGBr%2BWgOjAQ9kNKYs6MOjNOvdJaqEtLDTJ4sXyBcQTEdnycG5uAd%2FgZoq7FILqwFdMkGqr0nBIQ6lEM6OsoLHz9%2F%2FanQ%2B3E3vL%2BjDn78%2Fxt4ppEthQjMUyiv9NR3j0pqIOf1CikIP04CqHvXA7zq35BRSyciDAE63%2Fe2hLcgkmowmv2%2B3uHclpjS8oX2SjPgP"></iframe>
+    </div>
+</body>
+</html>

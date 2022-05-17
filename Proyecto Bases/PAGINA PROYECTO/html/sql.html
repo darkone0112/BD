@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar</title>
+    <style>
+        html{
+            background-color: #1d2630;
+        }
+        h1{
+            margin-left: 30vw;
+            font-size: 1.5em;
+        }
+        span{
+            font-size: 2em;
+            border-style: solid;
+            border-image: linear-gradient(to right, #fb5b53,  #1d2630, rgb(195, 255, 246)) 1;
+            font-style: italic;
+            background: linear-gradient(to right, red, red, #fb5b53,#1d2630, rgb(138, 252, 235), rgb(195, 255, 246));
+            background-size: 300%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 900;
+            letter-spacing: -5px;
+            text-transform: uppercase;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: animated_text 5s ease-in-out infinite;
+            -moz-animation: animated_text 5s ease-in-out infinite;
+            -webkit-animation: animated_text 5s ease-in-out infinite;
+}
+.seccion1{
+    margin-left: 80px;
+    border-left: #fb5b53 solid;
+}
+h2{
+    color: rgb(138, 252, 235);
+    font-size: 2em;
+    padding-left: 20px;
+
+}
+#intel1{
+    width: 60%;
+    height: 60%;
+    padding-left: 10px;
+    margin-left: 200px;
+}
+p{
+    color: rgb(138, 252, 235);
+    font-size: 1.2em;
+    
+    padding-left: 20px;
+    margin-right: 20px;
+    padding-right: 20px;
+}
+@keyframes animated_text {
+	0% { background-position: 0px 50%; }
+	50% { background-position: 100% 50%; }
+	100% { background-position: 0px 50%; }
+}
+/* @media screen and (max-width: 1490px) {
+    #intel1{
+    width: 380px;
+    height: 200px;
+    padding-left: 20vw;
+}
+#intel2{
+    width: 380px;
+    height: 200px;
+    padding-left: 0px;
+}
+#intel3{
+    width: 380px;
+    height: 200px;
+    padding-left: 0px;
+    margin-right: 10px;
+    margin-left: 20vw;
+}
+} */
+iframe{
+    margin-left: 300px;
+}
+    </style>
+</head>
+<body>
+    <h1><span>Consultas SQL</span></h1>
+    <div class="seccion1">
+        <h2>Creacion de Tablas</h2>
+        <img src="../img/createTables.png" alt="">
+        <h2>Insertando registros</h2>
+        <img src="../img/INSERTS.png" alt="">
+        <h2>Consultas SQL</h2>
+        <img src="../img/consultas.png" alt="">
+    </div>
+</body>
+</html>
