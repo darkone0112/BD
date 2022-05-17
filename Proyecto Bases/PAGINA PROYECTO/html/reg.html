@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar</title>
+    <style>
+        #fondo{
+            position: fixed; right: 0; bottom: 0;
+            min-width: 100%; min-height: 100%;
+            width: auto; height: auto; z-index: -100;
+            background: url(polina.jpg) no-repeat;
+            background-size: cover;
+        }
+        .regbox{
+            background-image: url(../img/regback.jpg);
+            position: relative;
+      width: 500px;
+      height: 600px;
+      margin-left: 500px;
+      margin-top: 50px;
+      border-radius: 50% / 10%;
+      color: white;
+      z-index: 2;
+      
+            background-size:cover;
+        }
+        .loginbox{
+            /* background-color: #294b72 */
+        }
+        .content{
+            display: flex;
+        }
+        form{
+            z-index: 2;
+            
+        }
+        #reg{
+            margin-top: 50px;
+            margin-left: 10px;
+        }
+        .uspas{
+            margin-left: 150px;
+        }
+        .opciones{
+            margin-top: 20px;
+            margin-left: 160px;
+            background-color:rgba(2, 2, 3, 0.5);;
+            width: 200px;
+            text-align: center;
+        }
+        .abajo{
+            margin-top: 40px;
+            margin-left: 60px;
+            background-color:rgba(2, 2, 3, 0.5);;
+            width: 400px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <video  autoplay muted loop id="fondo">
+        <source src="../vd/background.mp4" type="video/mp4">
+    </video>
+    <div class="content">
+        <div class="regbox">
+            <form action="" id="reg">
+                <label class="uspas">Usuario:</label><br>
+                <input type="text" class="uspas"><br>
+                <label class="uspas">Contraseña:</label><br>
+                <input type="password" class="uspas"><br>
+                <label>E-mail</label><br>
+                <input type="email"><br>
+                <label>Telefono:</label><br>
+                <input type="tel"><br>
+                
+                <div class="opciones">
+                    <label>Donde nos has conocido?</label><br>
+                    <label>Por un amigo<input type="radio" name="opcion"></label><br>
+                    <label>En internet<input type="radio" name="opcion"></label><br>b
+                    <label>Anuncio<input type="radio" name="opcion"></label><br>
+                </div>
+                <div class="abajo">
+                    <label>Desea recibir noticias sobre la actualidad?</label>
+                    <input type="checkbox"><br>
+                    <label>Acepta los Terminos y condicionas?</label>
+                    <input type="checkbox"><br><br><br>
+                    <a href="../index.html"><input type="button" value="Crear Cuenta"></a><br><br>
+                    <label>Ya tienes Cuenta?</label><br>
+                    <a href="../index.html"><input type="button" value="Iniciar sesion"></a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
